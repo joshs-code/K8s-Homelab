@@ -1,0 +1,5 @@
+persistence:
+  enabled: true
+  existingClaim: pihole-storage
+nodeSelector:
+  node-type: worker
